@@ -1,0 +1,92 @@
+.signin-options{
+    background: #D4F8FE;
+    box-shadow:  10px 10px 38px #b6d5da,
+                 -10px -10px 38px #b6d5da;
+    height: 15vw;
+    width: 40vw;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1vw;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    justify-content: center;
+}
+
+.head{
+    color: #354B45;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* user-select: none; */
+}
+
+.btn{
+    height: 6vh;
+    width: 8.5vw;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(94, 184, 121,0.9);
+    border: 2px solid rgb(94, 184, 121);
+    transition: ease-in-out 0.1s;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgba(94, 184, 121,0.7);
+}
+
+.modal-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 99;
+}
+
+.modal-form{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30vh;
+    width: 30vw;
+    background-color: white;
+    z-index: 100;
+    border-radius: 15px;
+}
+
+.modal-form input{
+    border: 2px solid rgb(110, 199, 110);
+    outline: none;
+    padding: 0.5vw;
+    border-radius: 15px;
+    height: 2vw;
+    background-color: white;
+    color: black;
+}
+
+.login-btn{
+    
+    background-color: rgb(94, 162, 94);
+    color: white;
+}
+
+.or{
+    color:#354B45;
+    font-family: "great vibes";
+    font-weight: 900;
+}
