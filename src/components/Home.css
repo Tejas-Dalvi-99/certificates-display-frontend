@@ -33,6 +33,29 @@
       justify-content: center;
       flex-wrap: wrap;
     }
+
+    .skeleton{
+  user-select: none;
+  background: linear-gradient(
+    to right,
+    #eeeeee 0%,
+    #dddddd 20%,
+    #eeeeee 40%,
+    #eeeeee 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
   
   .certificate-box {
     user-select: none;
